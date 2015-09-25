@@ -1,0 +1,39 @@
+
+.something{
+	font-family:sans;
+	font-size:larger;
+}
+
+.navbar-basic{
+	border-color:#e7e7e7;
+	font-size:large;
+}
+
+.navbar-header{
+	display:inline;
+	h1 {
+		overflow:hidden;
+		padding-top:25px;
+	}
+}
+
+.navbar-brand{
+	height:150px!important;
+
+}
+
+.link-box{
+	min-height:300px;
+	background-color:rgba(211,211,211,.5);
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.footer{
+	height:5vh;
+	background-color:#e7e7e7;
+	.navbar-text{
+		text-align:center;
+		width:100%;
+	}
+}

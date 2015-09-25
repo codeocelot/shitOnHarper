@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    title= title
+
+    link(rel="stylesheet", href="/stylesheets/css/main.css")
+    link(rel='stylesheet' href="bower_components/bootstrap/dist/css/bootstrap.min.css")
+    link(ref='stylesheet' href="bower_components/font-awesome/css/font-awesome.css")
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+      
+    //- link(rel='stylesheet' href='bower_components/pure/pure-min.css')
+    //- <!--[if lte IE 8]>
+    //- <link rel="stylesheet" href="bower_components/pure/grids-responsive-old-ie-min.css" >
+    //- <![endif]-->
+    //- <!--[if gt IE 8]><!-->
+    //- <link rel="stylesheet" href="bower_components/pure/grids-responsive-min.css" >
+    //- <!--<![endif]-->
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+  body
+    .container(style="min-height:95vh;")
+      nav.navbar.navbar-basic
+        .navbar-header
+          a.navbar-brand(href="/")
+            img(src="images/blackandwhiteharpershits.png" width="100px")
+            //img(alt="HarperSucks" src="holder.js/150x100")
+          h1 Give a shit about Harper
+        .collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href="howtovote") Butt, how?
+            li
+              a(href="#") Order
+            li
+              a(href="contact") Contact Us  
+            li
+              a(href="#")
+                i.fa.fa-facebook-square
+            li
+              a(href="#")
+                i.fa.fa-twitter-square
+            
+      block content
+        
+    .footer.container-fluid
+      .navbar-text
+        span © 2015 - Site Built with <3 by 
+          a(href="https://github.com/codeocelot") jrg
+          
+        
+      
+      
+    script(src="bower_components/holderjs/holder.min.js")
+    script(src="bower_components/jquery/dist/jquery.min.js")
+    script(src="bower_components/bootstrap/dist/js/bootstrap.min.js")
