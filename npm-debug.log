@@ -9,7 +9,7 @@
 6 silly lifecycle shitonharper@0.0.0~prestart: no script for prestart, continuing
 7 info lifecycle shitonharper@0.0.0~start: shitonharper@0.0.0
 8 verbose lifecycle shitonharper@0.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle shitonharper@0.0.0~start: PATH: /home/jrg/.nvm/versions/node/v0.12.7/lib/node_modules/npm/bin/node-gyp-bin:/home/jrg/shitonharper/node_modules/.bin:/home/jrg/.dnx/runtimes/dnx-mono.1.0.0-beta8-15618/bin:/home/jrg/.dnx/bin:/home/jrg/.nvm/versions/node/v0.12.7/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+9 verbose lifecycle shitonharper@0.0.0~start: PATH: /home/jrg/.nvm/versions/node/v0.12.7/lib/node_modules/npm/bin/node-gyp-bin:/home/jrg/shitonharper/node_modules/.bin:/usr/local/heroku/bin:/home/jrg/.dnx/runtimes/dnx-mono.1.0.0-beta8-15618/bin:/home/jrg/.dnx/bin:/home/jrg/.nvm/versions/node/v0.12.7/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 10 verbose lifecycle shitonharper@0.0.0~start: CWD: /home/jrg/shitonharper
 11 silly lifecycle shitonharper@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle shitonharper@0.0.0~start: Returned: code: 1  signal: null
