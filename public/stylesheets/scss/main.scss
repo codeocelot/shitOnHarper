@@ -16,6 +16,10 @@
 		text-decoration: none;
 	}
 }
+
+.navbar-nav a{
+	font-size:24px;
+}
 // .navbar-header{
 // 	display:inline;
 // 	width:600px;
@@ -38,7 +42,7 @@
 }
 
 .footer{
-	height:5vh;
+	height:50px;
 	background-color:#e7e7e7;
 	.navbar-text{
 		text-align:center;
@@ -59,3 +63,17 @@
 				display:inline-block;
 			}
 	}
+
+.fa.fa-facebook-square{
+	color:#3B5998;
+	font-size:34px;
+}
+
+.border{
+	border-style:solid;
+	border-width:1px;
+}
+
+hr.col-lg-12 {
+	border-color:grey;
+}
