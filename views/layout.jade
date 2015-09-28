@@ -18,29 +18,35 @@ html
     //- <!--<![endif]-->
     meta(name='viewport' content='width=device-width, initial-scale=1')
   body
-    .container(style="min-height:95vh;")
-      nav.navbar.navbar-basic
-        .navbar-header
-          a.navbar-brand(href="/")
-            img(src="images/tp1_logo.jpg" width="100px")
-            //img(src="images/blackandwhiteharpershits.png" width="100px")
-            //img(alt="HarperSucks" src="holder.js/150x100")
-          h1 Give a shit about Harper
-        .collapse.navbar-collapse
-          ul.nav.navbar-nav.navbar-right
-            li
-              a(href="howtovote") Butt, how?
-            li
-              a(href="order") Order
-            //- li
-            //-   a(href="contact") Contact Us  
-            li(style="margin-top:-8px;")
-              a(href="https://www.facebook.com/ifyougiveashitvote")
-                i.fa.fa-facebook-square.fa-2x
-            //- li
-            //-   a(href="#")
-            //-     i.fa.fa-twitter-square
+    nav.navbar.navbar-default(style="padding-left:40px;padding-top:5px;")
+      .navbar-header
+        a(href="/" style="text-decoration:none;")
+          h1(style="text-decoration:none;") Give a shit about Harper
+          //img(src="images/tp1_logo.jpg" width="50px" )
+          //img(src="images/blackandwhiteharpershits.png" width="100px")
+          //img(alt="HarperSucks" src="holder.js/150x100")
+        
+        button.navbar-toggle(type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle")
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      .collapse.navbar-collapse#navbarCollapse
+        ul.nav.navbar-nav.navbar-right
+          li
+            a(href="howtovote") Butt, how?
+          li
+            a(href="order") Order
+          //- li
+          //-   a(href="contact") Contact Us  
+          li(style="margin-top:-8px;")
+            a(href="https://www.facebook.com/ifyougiveashitvote")
+              i.fa.fa-facebook-square.fa-2x
+          //- li
+          //-   a(href="#")
+          //-     i.fa.fa-twitter-square
             
+    .container(style="min-height:95vh;")
       block content
         
     .footer.container-fluid

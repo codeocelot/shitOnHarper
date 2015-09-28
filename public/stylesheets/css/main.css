@@ -8,16 +8,10 @@
   font-size: large;
 }
 
-.navbar-header {
-  display: inline;
-}
 .navbar-header h1 {
-  overflow: hidden;
-  padding-top: 25px;
-}
-
-.navbar-brand {
-  height: 150px !important;
+  display: inline;
+  color: black;
+  text-decoration: none;
 }
 
 .link-box {
@@ -39,6 +33,15 @@
 .main-content {
   line-height: 30px;
   padding-top: 50px;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+.vcenter img {
+  display: inline-block;
 }
 
 /*# sourceMappingURL=main.css.map */
